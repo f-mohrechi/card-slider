@@ -1,0 +1,105 @@
+{
+  "boxes": [
+    {
+      "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian.png",
+      "name": "Barbarian",
+      "text": "The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. He has Killer yellow horseshoe mustache.",
+      "level": "Level 4",
+      "units": [
+        {
+          "value": "20<sup>S</sup>",
+          "title": "Training"
+        },
+        {
+          "value": "24",
+          "title": "Speed"
+        },
+        {
+          "value": "300",
+          "title": "cost"
+        }
+      ]
+    },
+    {
+      "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer.png",
+      "name": "Archer",
+      "text": "The Archer is a female warrior with sharp eyes. She wears a short, light green dress, a hooded cape, a leather belt and an attached small pouch.",
+      "level": "Level 5",
+      "units": [
+        {
+          "value": "20<sup>S</sup>",
+          "title": "Training"
+        },
+        {
+          "value": "24",
+          "title": "Speed"
+        },
+        {
+          "value": "300",
+          "title": "cost"
+        }
+      ]
+    },
+    {
+      "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant.png",
+      "name": "Giant",
+      "text": "Slow, steady and powerful, Giants are massive warriors that soak up huge amounts of damage. Show them a turret or cannon and you'll see their fury unleashed!",
+      "level": "Level 5",
+      "units": [
+        {
+          "value": "2<sup>M</sup>",
+          "title": "Training"
+        },
+        {
+          "value": "12",
+          "title": "Speed"
+        },
+        {
+          "value": "2250",
+          "title": "cost"
+        }
+      ]
+    },
+    {
+      "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin.png",
+      "name": "Goblin",
+      "text": "These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.",
+      "level": "Level 5",
+      "units": [
+        {
+          "value": "30<sup>S</sup>",
+          "title": "Training"
+        },
+        {
+          "value": "32",
+          "title": "Speed"
+        },
+        {
+          "value": "100",
+          "title": "cost"
+        }
+      ]
+    },
+    {
+      "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard.png",
+      "name": "Wizard",
+      "text": "The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!",
+      "level": "Level 6",
+      "units": [
+        {
+          "value": "5<sup>M</sup>",
+          "title": "Training"
+        },
+        {
+          "value": "16",
+          "title": "Speed"
+        },
+        {
+          "value": "4000",
+          "title": "cost"
+        }
+      ]
+    }
+    
+  ]
+}
