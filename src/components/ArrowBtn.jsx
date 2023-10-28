@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export default function ArrowBtn() {
+export default function ArrowBtn({ direction, handleClick }) {
   return (
-    <div class="arrow-wrapper">
-      <div class="round">
+    <div className="arrow-wrapper" onClick={handleClick}>
+      <div className="round">
         <div id="cta">
-          <span class="arrow prev"></span>
+          <span className={`arrow ${direction}`}></span>
         </div>
       </div>
     </div>
-  )
+  );
 }

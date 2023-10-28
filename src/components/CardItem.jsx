@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function CardItem({type, children}) {
+export default function CardItem({ type, children }) {
   return (
     <>
-      <div class={type}>{children}</div>
+      <div className={type}>{children}</div>
     </>
-  )
+  );
 }

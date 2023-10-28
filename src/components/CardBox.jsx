@@ -1,26 +1,21 @@
-import React from 'react'
-import ArrowBtn from './ArrowBtn'
-import Units from './Units'
-import CardImg from './CardImg'
-import CardItem from './CardItem'
+import React from "react";
+import ArrowBtn from "./ArrowBtn";
+import Units from "./Units";
+import CardImg from "./CardImg";
+import CardItem from "./CardItem";
 
-export default function CardBox() {
+export default function CardBox({ box }) {
   return (
+    <div className={`clash-card ${box.name}`}>
+      <CardImg src={box.Img} name={box.name} />
 
-    <div class="clash-card barbarian">
+      <CardItem type={`clash-card__level clash-card__level--${box.name}`}>
+        {box.level}
+      </CardItem>
+      <CardItem type={"clash-card__unit-name"}>{box.name}</CardItem>
+      <CardItem type={"clash-card__unit-description"}>{box.text}</CardItem>
 
-      <CardImg />
-
-
-      <CardItem type={"clash-card__level clash-card__level--barbarian"}>Level 4</CardItem>
-      <CardItem type={"clash-card__unit-name"}>Barbarian</CardItem>
-      <CardItem type={"clash-card__unit-description"}>The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for
-        destruction. He has Killer yellow horseshoe mustache.</CardItem>
-
-
-      <Units />
-
-
+      <Units name={box.name} units={box.units} />
     </div>
-  )
+  );
 }
