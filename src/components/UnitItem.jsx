@@ -3,7 +3,7 @@ import React from "react";
 export default function UnitItem({ state, value, noBorder }) {
   let className = "one-third ";
   if (noBorder) {
-    className += "noBorder";
+    className += "no-border";
   }
   return (
     <div className={className}>
