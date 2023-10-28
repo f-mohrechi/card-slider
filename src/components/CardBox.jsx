@@ -9,7 +9,9 @@ export default function CardBox({ box }) {
     <div className={`clash-card ${box.name}`}>
       <CardImg src={box.Img} name={box.name} />
 
-      <CardItem type={`clash-card__level clash-card__level--${box.name}`}>
+      <CardItem
+        type={`clash-card__level clash-card__level--${box.name.toLowerCase()}`}
+      >
         {box.level}
       </CardItem>
       <CardItem type={"clash-card__unit-name"}>{box.name}</CardItem>
