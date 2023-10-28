@@ -4,7 +4,7 @@ import UnitItem from "./UnitItem";
 export default function Units({ units, name }) {
   return (
     <div
-      className={`clash-card__unit-stats clash-card__unit-stats--${name} clearfix`}
+      className={`clash-card__unit-stats clash-card__unit-stats--${name.toLowerCase()} clearfix`}
     >
       {units.map((item, index) => {
         return (

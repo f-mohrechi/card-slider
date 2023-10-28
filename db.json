@@ -3,7 +3,7 @@
     {
       "id": 1,
       "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian.png",
-      "name": "barbarian",
+      "name": "Barbarian",
       "text": "The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. He has Killer yellow horseshoe mustache.",
       "level": "Level 4",
       "units": [
@@ -24,7 +24,7 @@
     {
       "id": 2,
       "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer.png",
-      "name": "archer",
+      "name": "Archer",
       "text": "The Archer is a female warrior with sharp eyes. She wears a short, light green dress, a hooded cape, a leather belt and an attached small pouch.",
       "level": "Level 5",
       "units": [
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant.png",
-      "name": "giant",
+      "name": "Giant",
       "text": "Slow, steady and powerful, Giants are massive warriors that soak up huge amounts of damage. Show them a turret or cannon and you'll see their fury unleashed!",
       "level": "Level 5",
       "units": [
@@ -66,7 +66,7 @@
     {
       "id": 4,
       "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin.png",
-      "name": "goblin",
+      "name": "Goblin",
       "text": "These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.",
       "level": "Level 5",
       "units": [
@@ -87,7 +87,7 @@
     {
       "id": 5,
       "Img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard.png",
-      "name": "wizard",
+      "name": "Wizard",
       "text": "The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!",
       "level": "Level 6",
       "units": [
